@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: sans-serif; /* Contoh font */
+    background-color: #f4f4f4; /* Contoh warna latar belakang */
+    display: flex;
+    justify-content: center; /* Membuat container berada di tengah horizontal */
+    align-items: center; /* Membuat container berada di tengah vertikal */
+    min-height: 100vh; /* Memastikan body minimal setinggi viewport */
+}
+
+.container {
+    min-width: 320px;
+    max-width: 1200px;
+    height: 75vh;
+    background-color: #fff; /* Contoh warna latar belakang container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Contoh efek bayangan */
+    border-radius: 8px; /* Contoh sudut membulat */
+    padding: 20px; /* Contoh padding di dalam container */
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar/tinggi */
+    text-align: center; /* Contoh pengaturan teks di dalam container */
+    overflow: hidden; /* Mencegah konten meluber jika melebihi tinggi */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
